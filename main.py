@@ -7,7 +7,7 @@ series = pd.Series([0,1,"two",3.0,True, np.nan])
 print(series)
 print(series.dtypes)
 
-# create a dataframe using first of the month dates as rows and
+# create a dataframe using first of the month dates as index and
 # "0123" respectively as columns. Random number from
 # 1 to 10 as data entries. Perhaps, you want a random number for each week
 
